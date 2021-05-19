@@ -9,6 +9,7 @@ use App\Models\Product; // select, insert... about table Products
 class ProductController extends Controller
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * Display a listing of the resource.
      *
@@ -43,6 +44,8 @@ class ProductController extends Controller
 
 
 =======
+=======
+>>>>>>> parent of 24567168 (product controller)
     public function index() {
         $products =  Product::all();
       //  $categories = Categories::all();
